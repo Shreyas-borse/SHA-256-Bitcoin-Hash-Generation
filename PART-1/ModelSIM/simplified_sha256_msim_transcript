@@ -1,0 +1,123 @@
+# Compile of simplified_sha256.sv was successful.
+# Compile of tb_simplified_sha256.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_simplified_sha256
+# vsim -gui work.tb_simplified_sha256 
+# Start time: 19:42:21 on Mar 09,2022
+# Loading sv_std.std
+# Loading work.tb_simplified_sha256
+# Loading work.simplified_sha256
+# WARNING: No extended dataflow license exists
+run -all
+# --------
+# MESSAGE:
+# --------
+# 01234567
+# 02468ace
+# 048d159c
+# 091a2b38
+# 12345670
+# 2468ace0
+# 48d159c0
+# 91a2b380
+# 23456701
+# 468ace02
+# 8d159c04
+# 1a2b3809
+# 34567012
+# 68ace024
+# d159c048
+# a2b38091
+# 45670123
+# 8ace0246
+# 159c048d
+# 00000000
+# ***************************
+# 
+# 40c35490	366afef3	a92ada07	c3cdbbfe	fe048692	5ed9538f	52526b44	7d18ff44
+# 4da0bea6	40c35490	366afef3	a92ada07	372309d4	fe048692	5ed9538f	52526b44
+# c1ea1ae4	4da0bea6	40c35490	366afef3	41911a9f	372309d4	fe048692	5ed9538f
+# 7f112f43	c1ea1ae4	4da0bea6	40c35490	2462f4a4	41911a9f	372309d4	fe048692
+# 2eceb5ea	7f112f43	c1ea1ae4	4da0bea6	408f0cef	2462f4a4	41911a9f	372309d4
+# 87924081	2eceb5ea	7f112f43	c1ea1ae4	47334b91	408f0cef	2462f4a4	41911a9f
+# 3f230e3b	87924081	2eceb5ea	7f112f43	a49058b0	47334b91	408f0cef	2462f4a4
+# 11f506a8	3f230e3b	87924081	2eceb5ea	2f5a5ad6	a49058b0	47334b91	408f0cef
+# 28f86f3d	11f506a8	3f230e3b	87924081	5aecb039	2f5a5ad6	a49058b0	47334b91
+# a884aa05	28f86f3d	11f506a8	3f230e3b	23ba339e	5aecb039	2f5a5ad6	a49058b0
+# ff964d92	a884aa05	28f86f3d	11f506a8	ed20b59a	23ba339e	5aecb039	2f5a5ad6
+# 33df8947	ff964d92	a884aa05	28f86f3d	12fbfcb2	ed20b59a	23ba339e	5aecb039
+# c7459838	33df8947	ff964d92	a884aa05	3bbc1e0c	12fbfcb2	ed20b59a	23ba339e
+# 89076d65	c7459838	33df8947	ff964d92	533ccf19	3bbc1e0c	12fbfcb2	ed20b59a
+# 4d1ca1a2	89076d65	c7459838	33df8947	b4936089	533ccf19	3bbc1e0c	12fbfcb2
+# 28025cc0	4d1ca1a2	89076d65	c7459838	a208732e	b4936089	533ccf19	3bbc1e0c
+# 3db0b0fd	28025cc0	4d1ca1a2	89076d65	167d03d3	a208732e	b4936089	533ccf19
+# cb31323e	3db0b0fd	28025cc0	4d1ca1a2	1ce1b977	167d03d3	a208732e	b4936089
+# 43d7f2e3	cb31323e	3db0b0fd	28025cc0	7fd1755f	1ce1b977	167d03d3	a208732e
+# d6859c1a	43d7f2e3	cb31323e	3db0b0fd	9ab1d6d3	7fd1755f	1ce1b977	167d03d3
+# 7d08272c	d6859c1a	43d7f2e3	cb31323e	b41b6d7f	9ab1d6d3	7fd1755f	1ce1b977
+# f26f8c87	7d08272c	d6859c1a	43d7f2e3	5f5db81d	b41b6d7f	9ab1d6d3	7fd1755f
+# 6fc6bc21	f26f8c87	7d08272c	d6859c1a	96fab362	5f5db81d	b41b6d7f	9ab1d6d3
+# 2a38baff	6fc6bc21	f26f8c87	7d08272c	e1655672	96fab362	5f5db81d	b41b6d7f
+# 8ee38d73	2a38baff	6fc6bc21	f26f8c87	a1e07426	e1655672	96fab362	5f5db81d
+# eff34162	8ee38d73	2a38baff	6fc6bc21	ad6eb6fb	a1e07426	e1655672	96fab362
+# f0bd1ee4	eff34162	8ee38d73	2a38baff	33a22d15	ad6eb6fb	a1e07426	e1655672
+# d4875ba3	f0bd1ee4	eff34162	8ee38d73	d059b7ad	33a22d15	ad6eb6fb	a1e07426
+# 803f6cfc	d4875ba3	f0bd1ee4	eff34162	e519a10d	d059b7ad	33a22d15	ad6eb6fb
+# 4057d854	803f6cfc	d4875ba3	f0bd1ee4	a533920e	e519a10d	d059b7ad	33a22d15
+# 1848612a	4057d854	803f6cfc	d4875ba3	bb178170	a533920e	e519a10d	d059b7ad
+# 3a4d702c	1848612a	4057d854	803f6cfc	5faef0eb	bb178170	a533920e	e519a10d
+# 9a934592	3a4d702c	1848612a	4057d854	485303d9	5faef0eb	bb178170	a533920e
+# 2d03bc73	9a934592	3a4d702c	1848612a	8bebe409	485303d9	5faef0eb	bb178170
+# 9ba709d9	2d03bc73	9a934592	3a4d702c	53c3ab1c	8bebe409	485303d9	5faef0eb
+# 00226d78	9ba709d9	2d03bc73	9a934592	eaea56b1	53c3ab1c	8bebe409	485303d9
+# 0a27ae89	00226d78	9ba709d9	2d03bc73	b91a4c55	eaea56b1	53c3ab1c	8bebe409
+# 28eddff2	0a27ae89	00226d78	9ba709d9	a34ecfd5	b91a4c55	eaea56b1	53c3ab1c
+# 30f737c2	28eddff2	0a27ae89	00226d78	01a05972	a34ecfd5	b91a4c55	eaea56b1
+# 867fe474	30f737c2	28eddff2	0a27ae89	6ec74fa0	01a05972	a34ecfd5	b91a4c55
+# f2defb68	867fe474	30f737c2	28eddff2	de5c9904	6ec74fa0	01a05972	a34ecfd5
+# d0e07c43	f2defb68	867fe474	30f737c2	aab0d8ef	de5c9904	6ec74fa0	01a05972
+# 7b060657	d0e07c43	f2defb68	867fe474	4126aa69	aab0d8ef	de5c9904	6ec74fa0
+# a5e58cc7	7b060657	d0e07c43	f2defb68	453beeaf	4126aa69	aab0d8ef	de5c9904
+# a688a6fb	a5e58cc7	7b060657	d0e07c43	8e0c4392	453beeaf	4126aa69	aab0d8ef
+# 8f158887	a688a6fb	a5e58cc7	7b060657	bb8c8a92	8e0c4392	453beeaf	4126aa69
+# d6fd699a	8f158887	a688a6fb	a5e58cc7	b8a2de79	bb8c8a92	8e0c4392	453beeaf
+# b2f8492a	d6fd699a	8f158887	a688a6fb	c570a680	b8a2de79	bb8c8a92	8e0c4392
+# d3a14ff0	b2f8492a	d6fd699a	8f158887	de5d7e1e	c570a680	b8a2de79	bb8c8a92
+# eea16447	d3a14ff0	b2f8492a	d6fd699a	dc6c955c	de5d7e1e	c570a680	b8a2de79
+# 68092a27	eea16447	d3a14ff0	b2f8492a	f05f12bf	dc6c955c	de5d7e1e	c570a680
+# 4715782b	68092a27	eea16447	d3a14ff0	5fdabb8e	f05f12bf	dc6c955c	de5d7e1e
+# 18904e8c	4715782b	68092a27	eea16447	38b06a98	5fdabb8e	f05f12bf	dc6c955c
+# 9c83b8c7	18904e8c	4715782b	68092a27	0f94cb9c	38b06a98	5fdabb8e	f05f12bf
+# 1e0199ca	9c83b8c7	18904e8c	4715782b	397a3704	0f94cb9c	38b06a98	5fdabb8e
+# 22252571	1e0199ca	9c83b8c7	18904e8c	fd0146c8	397a3704	0f94cb9c	38b06a98
+# ee607292	22252571	1e0199ca	9c83b8c7	f1596a5e	fd0146c8	397a3704	0f94cb9c
+# 16720854	ee607292	22252571	1e0199ca	d60f6b2b	f1596a5e	fd0146c8	397a3704
+# 61517edf	16720854	ee607292	22252571	c9d5967d	d60f6b2b	f1596a5e	fd0146c8
+# 040e21ab	61517edf	16720854	ee607292	546ea38d	c9d5967d	d60f6b2b	f1596a5e
+# a0d763dc	040e21ab	61517edf	16720854	9608a984	546ea38d	c9d5967d	d60f6b2b
+# fb44da37	a0d763dc	040e21ab	61517edf	85ffd1dd	9608a984	546ea38d	c9d5967d
+# 99375f6d	fb44da37	a0d763dc	040e21ab	1e3c4747	85ffd1dd	9608a984	546ea38d
+# 8767fce6	99375f6d	fb44da37	a0d763dc	91c21b0f	1e3c4747	85ffd1dd	9608a984
+# ---------------------
+# COMPARE HASH RESULTS:
+# ---------------------
+# Correct H[0] = bdd2fbd9	Your H[0] = bdd2fbd9
+# Correct H[1] = 42623974	Your H[1] = 42623974
+# Correct H[2] = bf129635	Your H[2] = bf129635
+# Correct H[3] = 937c5107	Your H[3] = 937c5107
+# Correct H[4] = f09b6e9e	Your H[4] = f09b6e9e
+# Correct H[5] = 708eb28b	Your H[5] = 708eb28b
+# Correct H[6] = 0318d121	Your H[6] = 0318d121
+# Correct H[7] = 85eca921	Your H[7] = 85eca921
+# ***************************
+# 
+# CONGRATULATIONS! All your hash results are correct!
+# 
+# Total number of cycles:         168
+# 
+# 
+# ***************************
+# 
+# ** Note: $stop    : D:/DOWNLOADS/WI 2022/ECE 111/PROJECT/simplified_sha256/tb_simplified_sha256.sv(263)
+#    Time: 3410 ps  Iteration: 2  Instance: /tb_simplified_sha256
+# Break in Module tb_simplified_sha256 at D:/DOWNLOADS/WI 2022/ECE 111/PROJECT/simplified_sha256/tb_simplified_sha256.sv line 263
